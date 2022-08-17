@@ -56,6 +56,8 @@ gg causes the program to output the corresponding graph.
 
 
 A2
+
+
 For this assignment, you need to write a program that takes input till it sees an EOF.
 
 One of the kinds of input contributes towards the specification of an undirected graph.
@@ -91,6 +93,8 @@ As discussed below under “Submission Instructions”, you should create a CMak
 cd PROJECT && mkdir build && cd build && cmake ../ && make
 
 A3
+
+
 Modify the output format of your Python script from Assignment 1 to match the input format of your C++ program from Assignment 2.
 
 Modify your C++ program from Assignment 2 to output the input graph on standard output.
@@ -160,6 +164,8 @@ cd PROJECT && mkdir build && cd build && cmake ../ && make instal
 Note that we are using make install instead of make. The install target instructs make to copy all of the binaries (both Python and C++) into directory ./run/bin. This ensures that all the executable files (including the Python program) are in the same directory.
 
 A4
+
+
 For this assignment, you are to augment your code from Assignment 2 to solve the minimal Vertex Cover problem for the input graph. Your approach is based on a polynomial time reduction to CNF- SAT, and use of a SAT solver. The following are the steps you should take for this assignment.
 
 SAT Solver
